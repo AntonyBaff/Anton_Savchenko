@@ -1,0 +1,29 @@
+// const str = "Hello, World";
+// for (const char of str) {
+//     console.log(char);
+// }
+
+// function* myGenerator() {
+//     yield 1
+//     yield 2
+//     yield 3
+// }
+
+// const generator = myGenerator()
+
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next(), done: true)
+
+// let user = {};
+// console.log(user.noSuchProperty === undefined);
+
+let user = {
+    name: "Anton",
+    age: 28
+}
+
+for (let key in user) {
+    console.log(key,":", user[key]);
+}
